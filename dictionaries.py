@@ -1,6 +1,11 @@
-
 dnarna = {
     'a':'u',
+    't':'a',
+    'c':'g',
+    'g':'c'
+}
+dnacompliment = {
+    'a':'t',
     't':'a',
     'c':'g',
     'g':'c'
@@ -17,7 +22,7 @@ rnaprotein = {
     'auu':'Ile',
     'auc':'Ile',
     'aua':'Ile',
-    'aug':'Met',
+    'aug':'Met',    # start
     'guu':'Val',
     'guc':'Val',
     'gua':'Val',
