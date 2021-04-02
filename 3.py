@@ -12,8 +12,8 @@ def ad_palindrome(k,j,diff):
         rec_string = sequence[k] + rec_string + sequence[j]
         k-=1
         j+=1
-    if(j-k > diff ):
-        rec_sites.append(rec_string)
+        if(8>=len(rec_string)>=4):
+            rec_sites.append(rec_string)
 
 for i in range(len(sequence)):
     if(sequence[i]!='a' and sequence[i]!='t' and sequence[i]!='c' and sequence[i]!='g'):
@@ -22,8 +22,7 @@ for i in range(len(sequence)):
     else:
         k = i
         j = i+1
-        ad_palindrome(i,i+1,3)
-        ad_palindrome(i-1,i+1,7)
+        ad_palindrome(k,j,3)
 
 print("len(rec_sites) : " + str(len(rec_sites)) )
 if(len(rec_sites) > 0):

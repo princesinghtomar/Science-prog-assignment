@@ -15,10 +15,11 @@ for i in dna_strand:
 print("> RNA Strand : ",end="")
 print("3' " + rna_strand + " 5'")
 rna_strand_5_3 = rna_strand[::-1] # convert rna string to 5' --- 3' for protein
-# print(rna_strand_5_3)
+print("> RNA Strand : ",end="")
+print("5' " + rna_strand_5_3 + " 3'")
 # print(len(rna_strand))
 
-total_proteins = rna_strand.count("aug")
+total_proteins = rna_strand_5_3.count("aug")
 # print(total_proteins)
 
 if(total_proteins > 0):
