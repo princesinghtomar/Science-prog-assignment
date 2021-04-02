@@ -14,13 +14,14 @@ for i in range(len(sequence)):
         rec_string = ""
         k = i
         j = i+1
-        while(j<len(sequence) and k>=0 and sequence[k] == dnacompliment[sequence[k]]):
-            rec_string = sequence[k] + rec_string + dnacompliment[sequence[k]]
+        while(j<len(sequence) and k>=0 and sequence[k] == dnacompliment[sequence[j]]):
+            rec_string = sequence[k] + rec_string + sequence[j]
             k-=1
             j+=1
         if(j-k > 3 ):
             rec_sites.append(rec_string)
 
+print("len(rec_sites) : " + str(len(rec_sites)) )
 if(len(rec_sites) > 0):
     print("> Restriction Recognition Sites : ")
     for i in rec_sites:
