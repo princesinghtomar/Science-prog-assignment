@@ -2,7 +2,7 @@ from dictionaries import *
 
 sequence = input("> Enter You Forward DNA Strand : ").lower()
 
-print(sequence)
+# print(sequence)
 
 rec_sites = []
 
@@ -24,7 +24,7 @@ for i in range(len(sequence)):
         j = i+1
         ad_palindrome(k,j,3)
 
-print("len(rec_sites) : " + str(len(rec_sites)) )
+# print("len(rec_sites) : " + str(len(rec_sites)) )
 if(len(rec_sites) > 0):
     print("> Restriction Recognition Sites : ")
     for i in rec_sites:
