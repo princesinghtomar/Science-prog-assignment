@@ -1,8 +1,9 @@
+# 5-3 DNA => 5-3 RNA
 dnarna = {
-    'a':'u',
-    't':'a',
-    'c':'g',
-    'g':'c'
+    'a':'a',
+    't':'u',
+    'c':'c',
+    'g':'g'
 }
 dnacompliment = {
     'a':'t',
