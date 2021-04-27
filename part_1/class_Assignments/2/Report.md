@@ -1,4 +1,4 @@
-# Quesion 2
+# Question 2
 ## Calculation of Value of 𝝿 using Monte Carlo
 ### Report & Code Explanation
 - For loop for 100000 pins faling at at random x and y position in a square
@@ -36,7 +36,7 @@ plt.legend()
 plt.show()
 ```
 ### Formula Used
-> 𝝿 = 𝝿 * (r * r)/ (r * r)
+> 𝝿 = 4 * (𝝿 * (r * r)/ (2r * 2r))
 
 ### Results :
 ![plot](./PIvN.png)

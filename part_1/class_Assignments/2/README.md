@@ -1,4 +1,4 @@
-# Quesion 2
+# Question 2
 ## Calculation of Value of 𝝿 using Monte Carlo
 ### Language
 > python 3.9
